@@ -393,9 +393,34 @@ button {
     margin: 4px auto;
 }
 
+button:hover {
+    background-color: #052b3b;
+}
+
+button:active {
+    background-color: #052b3b;
+}
+
 .btn-clear button {
     background-color: #31c8c9;
     margin-top: 15px;
-    width: 240px;
+    width: 100%;
     border-radius: 25px;
+    color: #052b3b;
+}
+
+.btn-clear button:hover {
+    background-color: #9ffae0;
+}
+
+.btn-clear button:active {
+    background-color: #9ffae0;
+}
+
+#equals {
+    background-color: #a6bffd;
+}
+
+#equals:hover {
+    background-color: #577ef8;
 }
