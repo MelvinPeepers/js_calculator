@@ -347,3 +347,55 @@
   [hidden] {
     display: none;
   }
+
+
+  /* End of reset
+     ========================================================================== */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #070b0d;
+}
+
+.calculator {
+    background-color: #151a1e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.display {
+    width: 240px;
+    background-color: #fff;
+    font-size: 2.8rem;
+    text-align: end;
+    margin-bottom: 15px;
+    padding-right: 6px;
+}
+
+.btn {
+    width: 240px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #4c5256;
+    border: none;
+    color: #fff;
+    font-size: 2.4rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 4px auto;
+}
+
+.btn-clear button {
+    background-color: #31c8c9;
+    margin-top: 15px;
+    width: 240px;
+    border-radius: 25px;
+}
