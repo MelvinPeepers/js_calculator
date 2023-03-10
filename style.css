@@ -367,30 +367,29 @@ body {
     border-radius: 10px;
 }
 
-.display {
-    width: 240px;
-    background-color: #fff;
+.screen {
+    width: 224px;
+    background-color: #abb5bf;
     font-size: 2.8rem;
     text-align: end;
-    margin-bottom: 15px;
-    padding-right: 6px;
+    padding: 4px;
 }
 
 .btn {
-    width: 240px;
+    width: 232px;
     display: flex;
     flex-wrap: wrap;
 }
 
 button {
-    background-color: #4c5256;
+    background-color: #4d565f;
     border: none;
     color: #fff;
     font-size: 2.4rem;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    margin: 4px auto;
+    border-radius: 25px;
+    margin: 4px;
 }
 
 button:hover {
@@ -402,7 +401,7 @@ button:active {
 }
 
 .btn-clear button {
-    background-color: #31c8c9;
+    background-color: #33e6e2;
     margin-top: 15px;
     width: 100%;
     border-radius: 25px;
@@ -418,7 +417,7 @@ button:active {
 }
 
 #equals {
-    background-color: #a6bffd;
+    background-color: #2036a1;
 }
 
 #equals:hover {
